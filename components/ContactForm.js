@@ -31,6 +31,15 @@ const handleSubmit = async (e) => {
                 <label htmlFor='name'>Name:</label>
                 <input type='text' required={true}/>
             </div>
+            <div>
+                <label htmlFor='email'>Email: </label>
+                <input type='text' required={true}/>
+            </div>
+            <div>
+                <label htmlFor='text'>Message:</label>
+                <textarea required={true}/>
+            </div>
+            <button type='submit'>{status}</button>
         </form>
     )
 }
